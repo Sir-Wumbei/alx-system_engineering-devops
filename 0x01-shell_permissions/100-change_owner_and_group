@@ -1,3 +1,8 @@
 #!/bin/bash
-chown -hR vincent:staff ./
+
+# Change owner and group for all files and directories in the working directory
+sudo chown -R vincent:staff ./*
+
+echo "Owner and group changed to vincent:staff for all files and directories."
+
 
