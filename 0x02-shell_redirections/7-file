@@ -1,18 +1,2 @@
 #!/bin/bash
-
-# Define the file name
-file_name='*\\'"Best School"'\\*$?$*****:)'
-
-# Define the text content
-content='Best School\n'
-
-# Use echo to write the content to the file
-echo -e "$content" > "$file_name"
-
-# Check if the file was created successfully
-if [ -e "$file_name" ]; then
-  echo "File '$file_name' created successfully."
-else
-  echo "File creation failed."
-fi
-
+echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\:\)
